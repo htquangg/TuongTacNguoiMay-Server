@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  server-gittrending:
+    container_name: server-gittrending-dev
+    command: yarn dev -L
